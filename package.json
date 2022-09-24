@@ -1,0 +1,29 @@
+{
+  "name": "react-pwa",
+  "version": "1.0.0",
+  "description": "A simple Progressive Web Application (PWA), built using React.js and Snowpack.",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KrytaniK/react-pwa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KrytaniK/react-pwa/issues"
+  },
+  "homepage": "https://github.com/KrytaniK/react-pwa#readme",
+  "devDependencies": {
+    "snowpack": "^3.8.8"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
