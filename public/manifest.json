@@ -1,5 +1,5 @@
 {
-    "start_url": "/",
+    "start_url": "./",
     "name": "React-PWA",
     "description": "Progressive Web Application using Snowpack and React",
     "icons": [
