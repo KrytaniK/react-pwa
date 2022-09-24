@@ -7,19 +7,20 @@ window.addEventListener('load', () => {
     }
 });
 
+/* ---------- App Install Handle --------- */
+
+let deferredInstallPrompt;
+window.addEventListener('beforeinstallprompt', e => {
+    e.preventDefault();
+    deferredInstallPrompt = e;
+});
+
 /* ---------- React Application --------- */
 
 import React from "react";
 import { createRoot } from 'react-dom/client';
-
-import { C_Counter } from "./Components";
+import App from './App';
 
 const container = document.getElementById('react-root');
 const root = createRoot(container);
-root.render(
-    <>
-        The site has been open for
-        <C_Counter />
-        seconds
-    </>
-);
+root.render(<App />);
